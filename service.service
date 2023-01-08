@@ -1,0 +1,9 @@
+[Unit]
+Description=Service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/main.sh
+
+[Install]
+WantedBy=multi-user.target
